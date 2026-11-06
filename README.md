@@ -95,3 +95,15 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+
+Phase 1 — Project setup ✅ Done. Bare RN + TypeScript, running on your real device.
+Phase 2 — Recording module 🔄 In progress. startSession() done; endSession() next.
+Phase 3 — Batch VAD — offline script that scans a full night's file and finds candidate windows (adaptive noise floor + high-pass filter).
+Phase 4 — Feature extraction & scoring — ZCR, spectral flatness, burst count per candidate; heuristic decides grind vs. not.
+Phase 5 — Local storage — SQLite schema (sessions, candidates, nightly summaries).
+Phase 6 — Morning review UI — listen + label each candidate.
+Phase 7 — Trend view — charts from labeled data over time.
+Phase 8 — Validation loop — run on yourself for weeks, tune thresholds against real nights.
+Phase 9 — Dataset export — bundle labeled candidates for future ML training.
